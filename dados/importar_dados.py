@@ -17,7 +17,6 @@ engine = create_engine(conexao_url)
 pasta_atual = os.path.dirname(os.path.abspath(__file__))
 
 # 2. Mapeamento dos arquivos CSV para as tabelas do MySQL
-# IMPORTANTE: A ordem respeita as Chaves Estrangeiras (primeiro Dimensões, depois Fatos)
 tabelas_csv = [
     ('produtos.csv', 'produtos'),
     ('clientes.csv', 'clientes'),
@@ -43,7 +42,7 @@ for arquivo_csv, tabela in tabelas_csv:
         df.to_sql(
             name=tabela,
             con=engine,
-            if_exists='append',  # Insere mantendo a estrutura da tabela
+            if_exists='append',
             index=False
         )
         print(f" Registros inseridos com sucesso na tabela '{tabela}'.\n")
