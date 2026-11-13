@@ -1,0 +1,197 @@
+pag_id,pag_metodo,pag_status,pag_moeda
+PAG-0001,Digital Wallet,Paid,USD
+PAG-0002,Debit Card,Pending,EUR
+PAG-0003,Cash on Delivery,Paid,USD
+PAG-0004,Debit Card,Paid,USD
+PAG-0005,Digital Wallet,Paid,INR
+PAG-0006,Credit Card,Paid,CAD
+PAG-0007,Credit Card,Paid,USD
+PAG-0008,PayPal,Paid,USD
+PAG-0009,Cash on Delivery,Paid,EUR
+PAG-0010,Buy Now Pay Later,Pending,USD
+PAG-0011,Cash on Delivery,Paid,GBP
+PAG-0012,Debit Card,Failed,EUR
+PAG-0013,PayPal,Paid,GBP
+PAG-0014,Cash on Delivery,Paid,AUD
+PAG-0015,Debit Card,Paid,EUR
+PAG-0016,Credit Card,Paid,GBP
+PAG-0017,Bank Transfer,Paid,GBP
+PAG-0018,Cash on Delivery,Failed,GBP
+PAG-0019,Debit Card,Refunded,USD
+PAG-0020,Credit Card,Paid,AUD
+PAG-0021,Debit Card,Paid,AED
+PAG-0022,Credit Card,Pending,USD
+PAG-0023,PayPal,Paid,EUR
+PAG-0024,Digital Wallet,Paid,EUR
+PAG-0025,Cash on Delivery,Paid,INR
+PAG-0026,Debit Card,Paid,GBP
+PAG-0027,Credit Card,Paid,INR
+PAG-0028,PayPal,Refunded,CAD
+PAG-0029,Credit Card,Failed,USD
+PAG-0030,Credit Card,Paid,EUR
+PAG-0031,Digital Wallet,Paid,AUD
+PAG-0032,PayPal,Paid,AUD
+PAG-0033,Buy Now Pay Later,Paid,GBP
+PAG-0034,Credit Card,Refunded,USD
+PAG-0035,Bank Transfer,Paid,USD
+PAG-0036,Digital Wallet,Paid,GBP
+PAG-0037,Digital Wallet,Refunded,USD
+PAG-0038,Credit Card,Failed,EUR
+PAG-0039,Buy Now Pay Later,Pending,INR
+PAG-0040,Bank Transfer,Paid,AUD
+PAG-0041,PayPal,Pending,USD
+PAG-0042,PayPal,Paid,AED
+PAG-0043,Buy Now Pay Later,Refunded,USD
+PAG-0044,Cash on Delivery,Refunded,EUR
+PAG-0045,Credit Card,Pending,GBP
+PAG-0046,Buy Now Pay Later,Failed,USD
+PAG-0047,Cash on Delivery,Pending,GBP
+PAG-0048,Digital Wallet,Pending,USD
+PAG-0049,Buy Now Pay Later,Paid,USD
+PAG-0050,PayPal,Refunded,INR
+PAG-0051,PayPal,Pending,GBP
+PAG-0052,Credit Card,Refunded,GBP
+PAG-0053,Digital Wallet,Failed,GBP
+PAG-0054,Bank Transfer,Paid,EUR
+PAG-0055,Credit Card,Paid,AED
+PAG-0056,Buy Now Pay Later,Paid,AED
+PAG-0057,Debit Card,Pending,USD
+PAG-0058,Buy Now Pay Later,Refunded,GBP
+PAG-0059,Debit Card,Paid,INR
+PAG-0060,Digital Wallet,Failed,USD
+PAG-0061,Debit Card,Pending,AUD
+PAG-0062,PayPal,Failed,USD
+PAG-0063,Bank Transfer,Refunded,USD
+PAG-0064,Debit Card,Paid,CAD
+PAG-0065,Debit Card,Failed,USD
+PAG-0066,Credit Card,Failed,GBP
+PAG-0067,Bank Transfer,Paid,INR
+PAG-0068,Buy Now Pay Later,Paid,EUR
+PAG-0069,Digital Wallet,Pending,EUR
+PAG-0070,Digital Wallet,Refunded,INR
+PAG-0071,Cash on Delivery,Paid,CAD
+PAG-0072,Credit Card,Pending,AUD
+PAG-0073,Cash on Delivery,Refunded,USD
+PAG-0074,Credit Card,Pending,EUR
+PAG-0075,Cash on Delivery,Failed,USD
+PAG-0076,Digital Wallet,Refunded,EUR
+PAG-0077,PayPal,Paid,CAD
+PAG-0078,PayPal,Pending,AUD
+PAG-0079,Cash on Delivery,Refunded,GBP
+PAG-0080,Buy Now Pay Later,Paid,INR
+PAG-0081,Credit Card,Failed,CAD
+PAG-0082,Debit Card,Pending,CAD
+PAG-0083,PayPal,Paid,INR
+PAG-0084,Buy Now Pay Later,Refunded,AED
+PAG-0085,Credit Card,Refunded,AED
+PAG-0086,Buy Now Pay Later,Failed,CAD
+PAG-0087,PayPal,Failed,EUR
+PAG-0088,PayPal,Refunded,GBP
+PAG-0089,Bank Transfer,Refunded,EUR
+PAG-0090,Buy Now Pay Later,Refunded,EUR
+PAG-0091,Credit Card,Refunded,EUR
+PAG-0092,Cash on Delivery,Paid,AED
+PAG-0093,PayPal,Refunded,USD
+PAG-0094,Credit Card,Pending,AED
+PAG-0095,Debit Card,Refunded,EUR
+PAG-0096,Bank Transfer,Pending,EUR
+PAG-0097,Digital Wallet,Pending,CAD
+PAG-0098,Debit Card,Refunded,CAD
+PAG-0099,Digital Wallet,Refunded,GBP
+PAG-0100,Debit Card,Paid,AUD
+PAG-0101,Bank Transfer,Failed,EUR
+PAG-0102,Credit Card,Pending,CAD
+PAG-0103,Bank Transfer,Pending,USD
+PAG-0104,Cash on Delivery,Failed,AUD
+PAG-0105,Debit Card,Failed,GBP
+PAG-0106,Debit Card,Refunded,INR
+PAG-0107,Buy Now Pay Later,Paid,AUD
+PAG-0108,Digital Wallet,Paid,CAD
+PAG-0109,Cash on Delivery,Pending,USD
+PAG-0110,Bank Transfer,Failed,USD
+PAG-0111,Cash on Delivery,Failed,CAD
+PAG-0112,Debit Card,Pending,AED
+PAG-0113,Digital Wallet,Failed,CAD
+PAG-0114,Digital Wallet,Refunded,AUD
+PAG-0115,Bank Transfer,Paid,CAD
+PAG-0116,PayPal,Failed,CAD
+PAG-0117,Debit Card,Refunded,AED
+PAG-0118,Cash on Delivery,Pending,CAD
+PAG-0119,Buy Now Pay Later,Refunded,CAD
+PAG-0120,PayPal,Failed,GBP
+PAG-0121,PayPal,Refunded,EUR
+PAG-0122,Credit Card,Failed,AUD
+PAG-0123,Bank Transfer,Pending,AUD
+PAG-0124,Credit Card,Pending,INR
+PAG-0125,Digital Wallet,Paid,AED
+PAG-0126,Buy Now Pay Later,Pending,GBP
+PAG-0127,Buy Now Pay Later,Pending,EUR
+PAG-0128,PayPal,Pending,EUR
+PAG-0129,PayPal,Refunded,AUD
+PAG-0130,Debit Card,Pending,INR
+PAG-0131,Credit Card,Failed,AED
+PAG-0132,Buy Now Pay Later,Pending,AED
+PAG-0133,Digital Wallet,Refunded,CAD
+PAG-0134,Cash on Delivery,Failed,EUR
+PAG-0135,Debit Card,Pending,GBP
+PAG-0136,Digital Wallet,Pending,INR
+PAG-0137,Buy Now Pay Later,Pending,AUD
+PAG-0138,Debit Card,Refunded,GBP
+PAG-0139,Cash on Delivery,Failed,INR
+PAG-0140,Buy Now Pay Later,Paid,CAD
+PAG-0141,Buy Now Pay Later,Failed,AED
+PAG-0142,Credit Card,Refunded,AUD
+PAG-0143,Buy Now Pay Later,Failed,GBP
+PAG-0144,PayPal,Refunded,AED
+PAG-0145,Bank Transfer,Pending,GBP
+PAG-0146,Cash on Delivery,Pending,AUD
+PAG-0147,Cash on Delivery,Pending,EUR
+PAG-0148,Cash on Delivery,Pending,AED
+PAG-0149,Digital Wallet,Pending,GBP
+PAG-0150,Debit Card,Failed,CAD
+PAG-0151,Credit Card,Refunded,CAD
+PAG-0152,Digital Wallet,Failed,EUR
+PAG-0153,Buy Now Pay Later,Failed,EUR
+PAG-0154,PayPal,Pending,AED
+PAG-0155,Cash on Delivery,Refunded,AUD
+PAG-0156,Buy Now Pay Later,Pending,CAD
+PAG-0157,Debit Card,Refunded,AUD
+PAG-0158,Bank Transfer,Refunded,GBP
+PAG-0159,Debit Card,Failed,AUD
+PAG-0160,PayPal,Failed,AUD
+PAG-0161,PayPal,Pending,INR
+PAG-0162,Bank Transfer,Paid,AED
+PAG-0163,Cash on Delivery,Failed,AED
+PAG-0164,Digital Wallet,Failed,INR
+PAG-0165,PayPal,Failed,AED
+PAG-0166,Bank Transfer,Refunded,AUD
+PAG-0167,Credit Card,Refunded,INR
+PAG-0168,Digital Wallet,Pending,AUD
+PAG-0169,Debit Card,Failed,INR
+PAG-0170,Bank Transfer,Failed,AED
+PAG-0171,Bank Transfer,Refunded,AED
+PAG-0172,Digital Wallet,Refunded,AED
+PAG-0173,Bank Transfer,Pending,CAD
+PAG-0174,Bank Transfer,Pending,INR
+PAG-0175,Digital Wallet,Failed,AUD
+PAG-0176,Cash on Delivery,Refunded,AED
+PAG-0177,Cash on Delivery,Refunded,INR
+PAG-0178,Buy Now Pay Later,Refunded,AUD
+PAG-0179,Buy Now Pay Later,Failed,AUD
+PAG-0180,Bank Transfer,Refunded,CAD
+PAG-0181,Debit Card,Failed,AED
+PAG-0182,Credit Card,Failed,INR
+PAG-0183,Digital Wallet,Pending,AED
+PAG-0184,PayPal,Pending,CAD
+PAG-0185,Bank Transfer,Failed,GBP
+PAG-0186,PayPal,Failed,INR
+PAG-0187,Bank Transfer,Failed,INR
+PAG-0188,Cash on Delivery,Pending,INR
+PAG-0189,Cash on Delivery,Refunded,CAD
+PAG-0190,Buy Now Pay Later,Failed,INR
+PAG-0191,Bank Transfer,Failed,CAD
+PAG-0192,Bank Transfer,Refunded,INR
+PAG-0193,Buy Now Pay Later,Refunded,INR
+PAG-0194,Bank Transfer,Failed,AUD
+PAG-0195,Bank Transfer,Pending,AED
+PAG-0196,Digital Wallet,Failed,AED
