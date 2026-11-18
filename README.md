@@ -1,11 +1,11 @@
 # 📊 Análise de Dados e Performance Comercial — E-commerce
 
-![Banner do Dashboard](./imagens/dashboard.png)
+![Banner do Dashboard](./imagens/dashboard.jpg)
 
 ## 🎯 Objetivo do Projeto
-Este projeto tem como objetivo estruturar um pipeline completo de análise de dados para uma operação de e-commerce fictícia gerada no Kaggle — desde a modelagem relacional do banco de dados e extração de métricas via **SQL** até a construção de um dashboard executivo interativo no **Power BI**. 
+Este projeto tem como objetivo estruturar um pipeline completo de análise de dados para uma operação de e-commerce (base fictícia extraída do Kaggle) — abrangendo desde a modelagem relacional do banco de dados e extração de métricas via **SQL** até a construção de um dashboard executivo interativo no **Power BI** com análise comparativa ano contra ano (*YoY* dinâmico, exibido automaticamente ao filtrar um ano específico).
 
-O foco central é responder a perguntas estratégicas de negócio sobre faturamento, rentabilidade, comportamento de compra, recorrência de clientes e concentração de receita (Análise de Pareto).
+O foco central é responder a perguntas estratégicas de negócio sobre faturamento, rentabilidade, comportamento de compra, recorrência de clientes e concentração de receita (Curva ABC / Pareto).
 
 ---
 
@@ -26,7 +26,7 @@ Os dados brutos utilizados neste estudo foram extraídos do dataset público **[
 3. **Modelagem Relacional:** Estruturação em tabelas fato e dimensão (`clientes`, `pedidos`, `itens_pedidos`, `produtos`, etc.) garantindo integridade referencial via `INNER JOIN`.
 
 ### 📐 Arquitetura e Modelagem (DER)
-![Diagrama Entidade-Relacionamento](./imagens/der_bd.png)
+![Diagrama Entidade-Relacionamento](./imagens/der_bd.jpg)
 
 ---
 
@@ -99,9 +99,9 @@ Com base nos dados analisados, sugere-se:
 ## 📁 Estrutura do Repositório
 
 ```text
-analise-dados-ecommerce/
-├── dados/                  # Arquivos CSV brutos utilizados na carga do banco
-├── dashboard/              # Arquivo do projeto Power BI (.pbix / .pbit)
-├── imagens/                # Capturas de tela do dashboard e do DER (dbdiagram.io)
-├── perguntas_de_negocio/   # Scripts SQL estruturados com CTEs para cada análise
+analise-dados-ecommerce
+├── dados                   # Arquivos CSV brutos utilizados na carga do banco
+├── dashboard               # Arquivo do projeto Power BI (.pbix / .pbit)
+├── imagens                 # Capturas de tela do dashboard e do DER (dbdiagram.io)
+├── perguntas_de_negocio    # Scripts SQL estruturados com CTEs para cada análise
 └── README.md               # Documentação técnica e executiva do projeto
