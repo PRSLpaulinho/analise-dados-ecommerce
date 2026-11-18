@@ -1,4 +1,4 @@
-# 📊 Análise de Dados e Performance Comercial — E-commerce
+# 📊 Projeto de Análise de Dados — E-commerce
 
 ![Banner do Dashboard](./imagens/dashboard.jpg)
 
