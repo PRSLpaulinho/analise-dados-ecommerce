@@ -42,35 +42,35 @@ Abaixo estão os questionamentos respondidos através das queries SQL (disponív
 * **Análise:** O lucro líquido concentra-se fortemente em categorias de maior valor agregado e bens duráveis (*Electronics*, *Jewelry* e *Home Appliances*), indicando que o ticket unitário elevado pesa mais na composição do lucro do que o alto giro de itens de baixo custo.
 
 ### 3. Qual combinação de canal de vendas e origem de aquisição gera maior volume e ticket médio?
-* **Resultado:** A combinação **[Moblibe App + Sem Campanha]** lidera o volume de vendas líquidas com **[US$ 34.714.444,43]**, enquanto **[Social Media + Promo_Email]** apresenta o maior ticket médio (**[US$ 1663,25]**).
-* **Análise:** O tráfego orgânico direto no aplicativo móvel sustenta o volume base da operação sem custo de mídia paga[cite: 9], enquanto campanhas combinadas de *Social Media* e *Email Marketing* funcionam como alavancas de *upsell*, atraindo compras de maior valor.
+* **Resultado:** A combinação **Moblibe App + Sem Campanha** lidera o volume de vendas líquidas com **US$ 34.714.444,43**, enquanto **Social Media + Promo_Email** apresenta o maior ticket médio (**US$ 1663,25**).
+* **Análise:** O tráfego orgânico direto no aplicativo móvel sustenta o volume base da operação sem custo de mídia paga, enquanto campanhas combinadas de *Social Media* e *Email Marketing* funcionam como alavancas de *upsell*, atraindo compras de maior valor.
 
 ### 4. Como está a eficiência logística (prazo estimado vs. real e taxa de atraso) por estado?
 * **Resultado:** Entre as regiões monitoradas, os maiores índices de atraso ocorrem em **Sharjah** (**16,45%** em 857 pedidos), **Tamil Nadu** (**15,88%** em 932 pedidos) e **Baden-Württemberg** (**15,77%** em 1.953 pedidos). Em volume absoluto de impacto, destacam-se **Pennsylvania** (**7.549 pedidos**, **15,47%** de atraso) e **California** (**7.019 pedidos**, **14,73%** de atraso).
 * **Análise:** Enquanto regiões menores lideram a taxa percentual de atraso, estados de alto volume como Pennsylvania e California representam o maior risco operacional absoluto, devendo ser priorizados na renegociação logística.
 
 ### 5. Qual é a taxa de devolução, os principais motivos e o impacto financeiro na operação?
-* **Resultado:** A taxa geral de devolução é de **[6,84%]**, gerando uma perda direta de **[US$ 7.347.361,35]** em lucro líquido. Os 3 principais motivos são: **[Produto errado]**, **[Mudou de ideia]** e **[Outros]**.
-* **Análise:** O volume deixado na mesa ultrapassa US$ 7,3 milhões. Como o principal motivo é o envio de *Produto errado*, melhorias na conferência de *picking/packing* no centro de distribuição e descrições mais precisas nas páginas de produto podem estancar grande parte dessa perda.
+* **Resultado:** A taxa geral de devolução é de **6,84%**, gerando uma perda direta de **US$ 7.347.361,35** em lucro líquido. Os 3 principais motivos são: **Produto errado**, **Mudou de ideia** e **Outros**.
+* **Análise:** O volume deixado na mesa ultrapassa US$ 7,3 milhões. Como o principal motivo é o envio de *Produto errado*, melhorias na conferência no centro de distribuição e descrições mais precisas nas páginas de produto podem estancar grande parte dessa perda.
 
 ### 6. Qual é a diferença de comportamento entre clientes recorrentes e novos clientes?
-* **Resultado:** Clientes recorrentes representam **[99,76%]** do volume de pedidos, possuem ticket médio de **[US$ 1380,95]** (vs. **[US$ 1436,14]** de novos) e taxa de uso de cupom de **[19,96%]**(vs. **[18,11%]** de novos).
+* **Resultado:** Clientes recorrentes representam **99,76%** do volume de pedidos, possuem ticket médio de **US$ 1380,95** (vs. **US$ 1436,14** de novos) e taxa de uso de cupom de **19,96%**(vs. **18,11%** de novos).
 * **Análise:** O faturamento da empresa é altamente dependente da retenção da base atual, e a taxa equilibrada de uso de cupons (~20% em ambos os grupos) comprova que a recompra ocorre de forma orgânica e saudável, sem dependência de descontos agressivos.
 
 ### 7. O uso de cupons de desconto aumenta o volume de vendas ou apenas corrói a margem de lucro?
-* **Resultado:** Pedidos com cupom apresentaram margem líquida de **[41,62%]**, contra **[41,54%]** nos pedidos sem cupom.
-* **Análise:** A estratégia promocional atual é altamente sustentável: os pedidos com cupom mantêm a margem praticamente idêntica (0,08 p.p. superior) aos pedidos sem desconto[cite: 9], indicando que os cupons estão bem calibrados e atuam como estímulo à conversão sem corroer a rentabilidade.
+* **Resultado:** Pedidos com cupom apresentaram margem líquida de **41,62%**, contra **41,54%** nos pedidos sem cupom.
+* **Análise:** A estratégia promocional atual é altamente sustentável: os pedidos com cupom mantêm a margem praticamente idêntica (0,08 superior) aos pedidos sem desconto, indicando que os cupons estão bem calibrados e atuam como estímulo à conversão sem corroer a rentabilidade.
 
 ### 8. Quem são os 3 principais clientes (VIPs) em faturamento líquido por estado?
-* **Resultado:** Mapeamento do Top 3 clientes por unidade federativa (ex: em **[Nova York]**, os 3 maiores compradores somam **[US$ 78.002,99]**).
-* **Análise:** A identificação nominal dos principais compradores regionais permite estruturar ações de *CRM* e programas de fidelidade VIP (frete grátis prioritário, acesso antecipado a lançamentos) para blindar essa receita contra a concorrência.
+* **Resultado:** Mapeamento do Top 3 clientes por unidade federativa (ex: em **Nova York**, os 3 maiores compradores somam **US$ 78.002,99**).
+* **Análise:** A identificação nominal dos principais compradores regionais permite estruturar ações e programas de fidelidade VIP (frete grátis prioritário, acesso antecipado a lançamentos) para blindar essa receita contra a concorrência.
 
 ### 9. Como foi a evolução mensal do faturamento líquido (crescimento MoM)?
-* **Resultado:** O faturamento apresentou variação média mensal (MoM) de **[7,20%]**, com pico de crescimento em **[Novembro]** (**[+51,17%]**) e maior retração em **[Janeiro]** (**[-46,63%]**).
-* **Análise:** A operação apresenta forte sazonalidade de varejo: o salto expressivo de +51,17% em Novembro (impulsionado por *Black Friday* e compras de fim de ano) é seguido naturalmente pela ressaca de consumo em Janeiro (-46,63%), exigindo planejamento antecipado de estoque no 4º trimestre e campanhas de queima de estoque no início do ano.
+* **Resultado:** O faturamento apresentou variação média mensal (MoM) de **7,20%**, com pico de crescimento em **Novembro** (**+51,17%**) e maior retração em **Janeiro** (**-46,63%**).
+* **Análise:** A operação apresenta forte sazonalidade de varejo: o salto expressivo de +51,17% em Novembro (compras de fim de ano) é seguido naturalmente pela ressaca de consumo em Janeiro (-46,63%), exigindo planejamento antecipado de estoque no 4º trimestre e campanhas de queima de estoque no início do ano.
 
 ### 10. Como está classificado o catálogo de produtos na Curva ABC de faturamento?
-* **Resultado:** O catálogo foi segmentado nas faixas **Classe A (Essencial - Top 80%)**, **Classe B (80% a 95%)** e **Classe C (95% a 100%)**, tendo como principais líderes de receita os SKUs **PROD-000065** (US$ 762.476,30), **PROD-000074** (US$ 720.203,77) e **PROD-000051** (US$ 704.379,86).
+* **Resultado:** O catálogo foi segmentado nas faixas **Classe A (Essencial - Top 80%)**, **Classe B (80% a 95%)** e **Classe C (95% a 100%)**, tendo como principais líderes de receita os produtos **PROD-000065** (US$ 762.476,30), **PROD-000074** (US$ 720.203,77) e **PROD-000051** (US$ 704.379,86).
 * **Análise:** A concentração da receita nos produtos Classe A exige política de estoque de segurança rigorosa (ruptura zero) para os líderes como o `PROD-000065`, enquanto os itens da Classe C devem passar por revisão de giro para evitar capital imobilizado.
 
 ---
