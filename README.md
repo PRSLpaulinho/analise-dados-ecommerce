@@ -34,7 +34,7 @@ Os dados brutos utilizados neste estudo foram extraídos do dataset público **[
 Abaixo estão os questionamentos respondidos através das queries SQL (disponíveis e aprofundados na pasta `perguntas_de_negocio/`):
 
 ### 1. Qual é o volume total de faturamento bruto e o lucro total?
-* **Resultado:** A operação atingiu um faturamento bruto validado de **US$ 158.390.939,65** considerando apenas pedidos pagos, com um lucro de **[US$ 59.826.619,04]**.
+* **Resultado:** A operação atingiu um faturamento bruto validado de **US$ 158.390.939,65** considerando apenas pedidos pagos, com um lucro de **US$ 59.826.619,04**.
 * **Análise:** A operação demonstra forte saúde financeira e geração de caixa consistente, convertendo quase 38% do faturamento bruto pago em lucro líquido, o que garante boa folga operacional para absorver custos logísticos e investimentos em marketing.
 
 ### 2. Quais são as 5 categorias de produtos com maior margem de lucro líquido?
