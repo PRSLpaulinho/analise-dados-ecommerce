@@ -5,7 +5,7 @@ SELECT
     COUNT(p.ped_status_retorno) AS total_devolucoes,
     ROUND((COUNT(p.ped_status_retorno) / COUNT(p.ped_id)) * 100, 2) AS taxa_geral_devolucao_pct,
     ROUND(SUM(CASE 
-                WHEN p.ped_status_retorno = 'Returned' THEN i.ite_lucro
+                WHEN p.ped_status_retorno = 'Returned' THEN ip.ite_lucro
             END), 2) AS impacto_financeiro_total_rs
 FROM 
     pedidos AS p

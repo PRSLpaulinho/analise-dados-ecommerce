@@ -31,6 +31,6 @@ SELECT
 FROM 
     faturamento_com_anterior
 WHERE 
-    ano_mes >= '2025-11'
+    ano_mes >= '2025-01'
 ORDER BY 
     ano_mes;

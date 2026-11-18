@@ -26,6 +26,7 @@ SELECT
     c.cli_recorrencia AS cliente_recorrente,
     ROUND(AVG(v.valor_total_pedido), 2) AS ticket_medio_pedido,
     COUNT(DISTINCT v.ped_id) AS volume_pedidos,
+    ROUND(COUNT(DISTINCT v.ped_id) * 100.0 / SUM(COUNT(DISTINCT v.ped_id)) OVER(), 2) AS perc_volume_pedidos,
     ROUND(SUM(v.usou_cupom) * 100.0 / COUNT(DISTINCT v.ped_id), 2) AS taxa_uso_cupons
 FROM 
     clientes AS c

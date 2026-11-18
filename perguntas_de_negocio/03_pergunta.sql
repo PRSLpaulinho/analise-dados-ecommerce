@@ -2,8 +2,8 @@
 
 WITH faturamento_por_pedido AS (
     SELECT 
-        ped_id,
-        SUM(ite_vendas_liquidas) AS valor_total_pedido
+        p.ped_id,
+        SUM(ip.ite_vendas_liquidas) AS valor_total_pedido
     FROM 
         itens_pedidos AS ip
     INNER JOIN
@@ -13,7 +13,7 @@ WITH faturamento_por_pedido AS (
     WHERE
         pg.pag_status = 'Paid'
     GROUP BY 
-        ped_id
+        p.ped_id
 )
 SELECT 
     m.mkt_canal_vendas AS canal_vendas,
@@ -30,4 +30,4 @@ GROUP BY
     m.mkt_canal_vendas,
     m.mkt_campanha
 ORDER BY 
-    volume_vendas_liquidas DESC;
+    ticket_medio_pedido DESC;
