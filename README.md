@@ -10,8 +10,9 @@ O foco central é responder a perguntas estratégicas de negócio sobre faturame
 ---
 
 ## 🛠️ Stack Tecnológica
-* **Banco de Dados & Consultas:** SQL (CTEs, Window Functions, Agregações e Joins)
 * **Modelagem de Dados:** [dbdiagram.io](https://dbdiagram.io/) (Diagrama Entidade-Relacionamento)
+* **Ingestão de Dados (ETL):** Python (Pandas, SQLAlchemy e PyMySQL) para leitura e carga automatizada dos CSVs no banco de dados
+* **Banco de Dados & Consultas:** SQL (CTEs, Window Functions, Agregações e Joins)
 * **ETL & Visualização de Dados:** Power BI (Power Query / DAX)
 * **Versionamento:** Git & GitHub
 
